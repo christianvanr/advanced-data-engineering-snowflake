@@ -2,7 +2,7 @@
 # Posted by VonC, modified by community. See post 'Timeline' for change history
 # Retrieved 2025-11-28, License - CC BY-SA 4.0
 
-name: Mixed inputs
+name: Deploy database snowflake
 
 on:
   workflow_dispatch:
@@ -11,8 +11,8 @@ on:
         type: choice
         description: Who to greet
         options: 
-        - monalisa
-        - cschleiden
+        - production
+        - test
       message:
         required: true
       use-emoji:
